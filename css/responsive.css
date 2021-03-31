@@ -30,6 +30,10 @@
         margin-left: 400px;
     }
 
+    .input-box {
+        margin-left: 320px;
+    }
+
     
 
 }
@@ -50,6 +54,10 @@
     .container {
         width: 900px;
         margin: 0 auto;
+    }
+
+    .input-box {
+        margin-left: 270px;
     }
 
     .services-link-box {
@@ -94,6 +102,10 @@
         margin: 0 auto;
     }
 
+    .input-box {
+        margin-left: 220px;
+    }
+
     .nav-menu {
         display: block;
     }
@@ -124,6 +136,18 @@
         margin: 0 auto;
     } 
 
+    .footer-title .footer-title-second {
+        font-size: 20px;
+    }
+
+    .footer-text .footer-link {
+        font-size: 15px;
+    }
+
+    .input-box {
+        margin-left: 165px;
+    }
+
     .work-link  {
         margin-left: 260px;
     } 
@@ -152,6 +176,39 @@
         margin: 0 auto;
     } 
 
+    .footer-list {
+       flex-direction: column;
+        align-items: center;
+    }
+
+     .footer-title  {
+       text-align: center;
+    }
+
+    .footer-title-second {
+        text-align: center;
+    }
+
+    .footer-text  {
+       text-align: center;
+    }
+
+    .center {
+        margin-bottom: 40px;
+    }
+
+    .input-box {
+        margin-left: 120px;
+    }
+
+    .order-text {
+        font-size: 14px;
+    }
+
+    .order-title {
+        font-size: 23px;
+    }
+
     .work .work-list {
         flex-direction: column;
     }
@@ -159,6 +216,10 @@
     .main-video-box {
         width: 94%;
 
+    }
+
+    .main-link {
+        margin-left: 120px;
     }
 
     .services-item {
@@ -186,10 +247,30 @@
         margin: 0 auto;
     } 
 
+    .main-text {
+        text-align: justify;
+    }
+
+    .services-text {
+        text-align: justify;
+    }
+
+    .input-box {
+        margin-left: 75px;
+    }
+
+    .order-text {
+        text-align: justify;
+    }
+
     .main-video-box {
         max-width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .main-link {
+        margin-left: 110px;
     }
 
     .work-link  {
@@ -210,6 +291,22 @@
         margin: 0 auto;
     }
     
+
+    .input-box {
+        margin-left: 25px;
+    }
+
+    .label-input {
+        font-size: 16px;
+    }
+
+    .order-text {
+        font-size: 15px;
+    }
+
+    .input-button {
+        font-size: 16px;
+    }
 
     .main-title {
         margin-top: 16px;
@@ -263,13 +360,16 @@
     }
 
     .work-link  {
-        margin-left: 89px;
-       
+        margin-left: 87px;
     } 
 
     .container {
         width: 90%;
-    } 
+    }
+    
+    .input-box {
+        margin-left: 2px;
+    }
 
     .main-text {
         margin: 16px 0;
@@ -278,7 +378,7 @@
     }
 
     .main-link {
-        margin-left: 70px;
+        margin-left: 65px;
         font-size: 14px;
     } 
 
@@ -304,9 +404,26 @@
         text-align: justify;
     }
 
+    .services-item-title {
+        font-size: 17px;
+    }
+
+    .services-img {
+        width: 100%;
+    }
+
+    .services-item-text {
+        font-size: 15px;
+    }
+
+.footer-text {
+    text-align: justify;
+} 
+    
+
 }
 
-@media (max-width:350px) {
+@media (max-width:320px) {
     .container {
         width: 100%;
     }
@@ -317,13 +434,44 @@
         text-align: justify;
     }
 
+
     .main-link {
-        margin-left: 60px;
+        margin-left: 50px;
         font-size: 14px;
     } 
 
-    .work .work-link  {
-     padding-right: 60px;
+    .work-link  {
+        font-size: 14px;
+     margin-left: 5px;
     } 
+
+    .work-text {
+        margin: 0 10px;
+    }
+
+    .work-item-text {
+        margin: 0 10px;
+    }
+
+    .work-item-title {
+        margin: 0 10px;
+    } 
+
+    .services-item {
+        width: 100%;
+    }
+
+    .services-item-title {
+        font-size: 16px;
+    }
+    
+    .services-img {
+        width: 100%;
+    }
+
+    .input-box {
+      
+    }
+    
 
 }
